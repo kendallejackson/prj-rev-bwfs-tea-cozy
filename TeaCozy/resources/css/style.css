@@ -1,0 +1,144 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+.header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  z-index: 20;
+  background-color: black;
+  margin-top: -8px;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header nav {
+  padding-right: 10px;
+}
+
+.header nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.header nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Hero */
+
+.container {
+  width: 1200px;
+  display: flex;
+  position: relative;
+  top: 69px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.container .hero {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.container #mission {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+/* Flavors */
+
+.month {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+.flavors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+
+.description img {
+  height: 200px;
+  width: 300px;
+}
+
+.description h4 {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+/* Locations */
+
+.container .small {
+  position: relative;
+  top: 120px;
+  height: 500px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.container .small h2 {
+  margin: 15px auto;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.one-location {
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  top: 180px;
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  position: relative;
+  top: 180px;
+}
